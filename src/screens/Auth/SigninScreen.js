@@ -5,6 +5,7 @@ import Button from "../../components/button/Button";
 import axios from "axios";
 import decodeJWT from "../../services/decodeJwt";
 import configAxios from "../../services/configAxios";
+import { NavigationActions, StackActions } from "react-navigation";
 
 export default class SigninScreen extends Component {
   constructor(props) {
